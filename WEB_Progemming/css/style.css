@@ -1,0 +1,10 @@
+div {
+    border: 1px solid black;
+    border=radius; 10px;
+    padding: 25px;
+    position: static;
+}
+
+p {
+    color: blue;
+}

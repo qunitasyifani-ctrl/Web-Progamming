@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #fff;
+    --sidebar-text-color: #337a33;
+    --sidebar-text-color-hover: #333633;
+
+
+}
+
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+ul.sidebar-menu{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+ul.sidebar-menu a {
+    display: block;
+    height: 40px;
+    background-color: rgb(99, 72, 72);
+    border-radius: 5px;
+    padding: 10px 10px 0 40px;
+    color: var(--text-color)
+}
+
+ul.sidebar-menu a span{
+    color: #337AB7;
+    display: inline-block;
+}
+
+.glyphicon {
+    color: #337AB7;
+}
+
+ul.sidebar-menu a:hover {
+    background-color: #ddd;
+    text-decoration: none;
+    color: #337AB7;
+}
+
+ul.sidebar-menu a:hover i {
+    transform: rotateY(270deg);
+}
+
+a {
+    text-decoration: none;
+}
+aside {
+    width: 250px;
+    background-color: rgb(80, 80, 80);
+    padding: 20px 20px;
+}
+
+aside {
+    width: 250px;
+    background-color: var(--primary-color);
+    padding: 20px 5px;
+    height: 100%;
+    box-shadow: 2px 2px 15px rgb(71 71 71);
+}
+
+.profile-image,
+.user-name {
+    text-align: center;
+    color
+}
+
+nav{
+    left: 250px;
+    widht: calc(100% - 250px);
+    heigt: 60px;
+    background-color: var(--primary-color);
+    position: absolute;
+    box-shadow: 2px 2px 15px rgba(71, 71, 71);
+}
+
+main{
+    background-color: #555;
+    height: calc(100% - 60px);
+    width: calc(100% - 250px);
+    left: 250px;
+    position: relative;
+    top: 60px;
+    padding: 30px;
+}
